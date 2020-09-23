@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube</title>
+  <link rel="stylesheet" href="YouTube.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  
+  <div class="header">
+    <div class="justify" >
+      <i class="fa fa-align-justify" style="font-size:20px;color:white"></i>
+    </div>
+    <div class="youtube-play">
+      <i class="fa fa-youtube-play"><label>YouTube</label></i>
+    </div>
+    <div class="search">
+      <input type="search" placeholder="search" class="CssSearch">
+     <i class="icon-search"></i>
+    </div>
+   </div>
+   
+     <div class="youtube">
+       <div class="container"> 
+        <iframe id="image" width="1280" height="720" src="https://www.youtube.com/embed/7yLxxyzGiko" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="text"></p>
+        <p id="date"></p>
+        
+    </div>
+    <div>
+      <ul> 
+        <li class="text1" onclick="date(),img1()" >
+          <img src="https://img.youtube.com/vi/7yLxxyzGiko/maxresdefault.jpg">
+          <p>kitten named Garfield washes its paws and prepares to sleep</p>
+        </li>
+        <li class="text2" onclick="date(),img2()">
+          <img src="https://img.youtube.com/vi/BFNekjEgvuk/maxresdefault.jpg">
+          <p >Cute kitten named Garfield washes its paws and prepares to sleep.</p>
+        </li>
+        <li class="text3" onclick="date(),img3()">
+          <img src="https://img.youtube.com/vi/BFNekjEgvuk/maxresdefault.jpg">
+          <p >Kitten sleeps sweetly with the Chicken 🐥</p>
+        </li>
+        <li class="text4" onclick="date(),img4()">
+          <img src="https://img.youtube.com/vi/te1fHMaw4UY/maxresdefault.jpg">
+          <p >White kitten and white tiny bunnies 🐰 | It's so Сute! 🥰</p>
+        </li>
+        <li class="text5" onclick="date(),img5()">
+          <img src="https://img.youtube.com/vi/MFyUZqSknvw/maxresdefault.jpg">
+          <p >Kittens meets and walk with a cute white bunny</p>
+        </li>
+        <li class="text6" onclick="date(),img6()">
+          <img src="https://img.youtube.com/vi/hlajmIPiphk/maxresdefault.jpg">
+          <p >Mom Cat playing and talking to her Cute Meowing baby Kittens</p>
+        </li>
+        <li class="text7" onclick="date(),img7()">
+          <img src="https://img.youtube.com/vi/Cz47GimSxIc/maxresdefault.jpg">
+          <p >Funny Kitten wags its tail like a Puppy</p>
+        </li>
+        <li class="text8" onclick="date(),img8()">
+          <img src="https://img.youtube.com/vi/RmpuhbdnAfQ/maxresdefault.jpg" id="RmpuhbdnAfQ">
+          <p >Kitty Coco and her Sleepy younger brother 🥰</p>
+        </li>
+      </ul>
+    </div>
+    
+    <script src="YouTube.js"></script>
+    <script src="data.js"></script>
+   
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.header{
+    width: 100%;
+    background-color: rgba(27, 27, 27, 0.918);
+    height: 40px;
+    display: flex;
+}
+.justify
+{
+    padding: 10px 25px;
+    
+}
+.youtube-play
+{
+    padding: 10px 25px;
+}
+.youtube-play,i
+{
+color: red;
+font-size:18px;
+}
+.youtube-play,label
+{
+    color:white ;
+    font-size:17px;
+    font-weight:bold;
+}
+.search{
+    padding: 10px 200px;
+}
+.CssSearch{
+    width: 250%;
+}
+
+
+.youtube{
+    display: flex;
+    background-color: rgb(250 250 250);
+}
+ 
+/*video*/
+.container {
+    padding: 22px 0px 0px 25px;
+    width: 62%;
+
+  }
+  iframe{
+      width: 800px;
+      height: 450px;
+  }
+  /*nextup*/
+  
+  .NextUp ul{
+    list-style: none;
+    margin: 6px -17px 0px -50px;
+}
+  
+  .NextUp , li {
+      width: 88%;
+      display: flex;
+      
+  }
+  .NextUp ,img{
+      width: 38%;
+      padding: 6px;
+  }
+  .NextUp ,p{
+    margin: 6px;
+}
+
